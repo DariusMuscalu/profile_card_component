@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import "variables";
+@import "globals";
+
+#card {
+    margin-top: 10%;
+    height: 100vh;
+    background: #eee;
+    background: url('/images/bg-pattern-bottom.svg');
+    background-position-x: right;
+    background-position-y: 1000%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    .flex-container {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        max-width: 400px;
+        text-align: center;
+        border-radius: 10px;
+
+        .card-header {
+            background: url('/images/bg-pattern-card.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        .img {
+            img {
+                border-radius: 50%;
+                border: 4px solid #fff;
+                margin-top: -50%;
+            }
+        }
+
+        .bottom-content {
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid #ccc;
+            width: 100%;
+
+            .flex-item {
+                padding: 1rem;
+            }
+        }
+    }
+}
+ 
