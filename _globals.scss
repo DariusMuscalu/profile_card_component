@@ -1,0 +1,16 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: $dark-cyan url('/images/bg-pattern-top.svg'); 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: -200%;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-size: 2rem;
+    color: #888;
+}
